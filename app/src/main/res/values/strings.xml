@@ -1,4 +1,5 @@
 <resources>
+    <string name="menu_stile">gaegu-regular.ttf</string>
     <string name="app_name">Body Helper</string>
     <string name="MainScreen">Главный экран</string>
     <string name="menu">Меню</string>
