@@ -9,7 +9,7 @@
         android:id="@+id/id_logo"
         android:layout_width="567dp"
         android:layout_height="269dp"
-        android:background="#545454"
+        android:background="@color/menu_color"
         android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
