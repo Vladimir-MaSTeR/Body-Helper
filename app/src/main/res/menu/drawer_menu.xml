@@ -7,17 +7,29 @@
         android:id="@+id/id_count"
         android:title="@string/MainScreen" />
 
+    <item android:title="Калорийность продуктов">
+        <menu>
+            <item
+                android:id="@+id/id_rice_cal"
+                android:title="@string/rice" />
+            <item
+                android:id="@+id/id_buckwheat_cal"
+                android:title="@string/buckwheat" />
+
+        </menu>
+    </item>
+
     <item android:title="@string/menu">
         <menu>
             <item
                 android:id="@+id/id_recipes"
                 android:title="@string/recipes" />
-<!--            <item-->
-<!--                android:id="@+id/id_recipes"-->
-<!--                android:title="@string/recipes" />-->
-<!--            <item-->
-<!--                android:id="@+id/id_recipes"-->
-<!--                android:title="@string/recipes" />-->
+            <!--            <item-->
+            <!--                android:id="@+id/id_recipes"-->
+            <!--                android:title="@string/recipes" />-->
+            <!--            <item-->
+            <!--                android:id="@+id/id_recipes"-->
+            <!--                android:title="@string/recipes" />-->
         </menu>
     </item>
 
