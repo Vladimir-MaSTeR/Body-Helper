@@ -4,4 +4,8 @@
     <string name="MainScreen">Главный экран</string>
     <string name="menu">Меню</string>
     <string name="recipes">Рецепты</string>
+
+    <!--Раздел Меню "Калорийность продуктов"-->
+    <string name="rice">Рис</string>
+    <string name="buckwheat">Гречка</string>
 </resources>
