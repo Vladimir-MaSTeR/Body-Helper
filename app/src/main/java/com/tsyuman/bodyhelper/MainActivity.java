@@ -15,15 +15,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);             // Butter Knife start
 
-        setupMenu();
-    }
-
-    private void setupMenu() {
-        FragmentManager fm = getSupportFragmentManager();
-        MenuFragmentList mMenuFragment = (MenuFragmentList) fm.findFragmentById(R.id.id_container_menu);
-        if (mMenuFragment == null) {
-            mMenuFragment = new MenuFragmentList();
-            fm.beginTransaction().add(R.id.id_container_menu, mMenuFragment).commit();
-        }
     }
 }

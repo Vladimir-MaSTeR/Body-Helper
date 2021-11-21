@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_start_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/id_imageView_logo_startActivity"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <EditText
+        android:id="@+id/id_editText_tapName_startActivity"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/st_userName_startActivity"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/id_imageView_logo_startActivity"
+        app:layout_constraintEnd_toStartOf="@id/id_imageButton_go_startActivity" />
+
+    <ImageButton
+        android:id="@+id/id_imageButton_go_startActivity"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#00BEE4BF"
+        android:src="@drawable/button_fastforward_green"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/id_editText_tapName_startActivity"
+        app:layout_constraintTop_toBottomOf="@id/id_imageView_logo_startActivity"
+        tools:ignore="UseAppTint" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

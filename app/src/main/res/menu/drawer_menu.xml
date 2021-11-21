@@ -11,10 +11,10 @@
         <menu>
             <item
                 android:id="@+id/id_rice_cal"
-                android:title="@string/rice" />
+                android:title=" kjnjn" />
             <item
                 android:id="@+id/id_buckwheat_cal"
-                android:title="@string/buckwheat" />
+                android:title="sdfdf" />
 
         </menu>
     </item>
