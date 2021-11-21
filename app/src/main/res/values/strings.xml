@@ -8,4 +8,6 @@
     <!--Раздел Меню "Калорийность продуктов"-->
     <string name="rice">Рис</string>
     <string name="buckwheat">Гречка</string>
+
+    <!--Default-->
 </resources>
