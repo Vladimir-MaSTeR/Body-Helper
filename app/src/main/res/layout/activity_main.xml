@@ -8,29 +8,30 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/id_logo_startActivity"
+        android:id="@+id/id_im_logo_startActivity"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/logo2"
 
-        app:layout_constraintBottom_toTopOf="@+id/id_userName_textView_startActivity"
+        app:layout_constraintBottom_toTopOf="@+id/id_tv_userName_mainActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/id_userName_textView_startActivity"
+        android:id="@+id/id_tv_userName_mainActivity"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="@string/userName_mainActivity"
+        android:text="@string/str_userName_mainActivity"
         android:textSize="24sp"
+        android:gravity="center"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/id_logo_startActivity" />
+        app:layout_constraintTop_toBottomOf="@id/id_im_logo_startActivity" />
 
     <LinearLayout
-        android:id="@+id/sada"
+        android:id="@+id/id_linLey_bottomBar_mainActivity"
         android:layout_width="413dp"
         android:layout_height="83dp"
         android:background="@color/black"
@@ -41,40 +42,39 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
-            android:id="@+id/id_imageButton1_linerLayout_actSt"
+            android:id="@+id/id_ib_1_bottomBar_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:src="@drawable/android_head"/>
 
         <ImageButton
-            android:id="@+id/id_imageButton2_linerLayout_actSt"
+            android:id="@+id/id_ib_2_bottomBar_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@android:drawable/ic_notification_overlay" />
 
         <ImageButton
-            android:id="@+id/id_imageButton3_linerLayout_actSt"
+            android:id="@+id/id_ib_3_bottomBar_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/android_head" />
 
         <ImageButton
-            android:id="@+id/id_imageButton4_linerLayout_actSt"
+            android:id="@+id/id_ib_4_bottomBar_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@android:drawable/ic_notification_overlay" />
 
         <ImageButton
-            android:id="@+id/id_imageButton5_linerLayout_actSt"
+            android:id="@+id/id_ib_5_bottomBar_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/gnome_applications_system" />
-
+            android:src="@drawable/system" />
     </LinearLayout>
 
 
