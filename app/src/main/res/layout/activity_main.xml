@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/id_im_logo_startActivity"
         android:layout_width="match_parent"
@@ -22,9 +23,10 @@
         android:id="@+id/id_tv_userName_mainActivity"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:gravity="center"
         android:text="@string/str_userName_mainActivity"
         android:textSize="24sp"
-        android:gravity="center"
+
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,44 +39,64 @@
         android:background="@color/black"
         android:isScrollContainer="true"
         android:orientation="horizontal"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <ImageButton
-            android:id="@+id/id_ib_1_bottomBar_mainActivity"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/android_head"/>
 
-        <ImageButton
-            android:id="@+id/id_ib_2_bottomBar_mainActivity"
+        <Button
+            android:id="@+id/id_btn_recipes_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_notification_overlay" />
+            android:text="рецепты"
+            android:textColor="@color/black">
 
-        <ImageButton
-            android:id="@+id/id_ib_3_bottomBar_mainActivity"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/android_head" />
+        </Button>
 
-        <ImageButton
-            android:id="@+id/id_ib_4_bottomBar_mainActivity"
+        <Button
+            android:id="@+id/id_btn_shoppingList_mainActivity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_notification_overlay" />
 
-        <ImageButton
-            android:id="@+id/id_ib_5_bottomBar_mainActivity"
+            android:text="Список покупок"
+            android:textColor="@color/black">
+
+        </Button>
+
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/system" />
+            android:background="@color/white"
+            android:src="@android:drawable/presence_online">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/id_btn_userSetting_mainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="Пользователь"
+            android:textColor="@color/black">
+
+        </Button>
+
+        <Button
+            android:id="@+id/id_btn_setting_mainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="@string/str_settings_mainActivity"
+            android:textColor="@color/black">
+
+        </Button>
+
     </LinearLayout>
 
 

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
+            android:name=".ShoppingListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipesActivity"
+            android:exported="false" />
+        <activity
             android:name=".StartActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
@@ -22,7 +28,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSettingActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

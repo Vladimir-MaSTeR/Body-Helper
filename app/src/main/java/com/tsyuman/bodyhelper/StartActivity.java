@@ -39,7 +39,7 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.id_btn_go_startActivity
+        if (v.getId() == btnGo.getId()
                 && !edTextName.getText().toString().trim().isEmpty()) {
 
             Intent intent = new Intent(this, MainActivity.class);
