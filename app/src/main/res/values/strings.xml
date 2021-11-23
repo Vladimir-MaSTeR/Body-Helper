@@ -1,9 +1,15 @@
 <resources>
     <!--Start activity-->
-    <string name="st_userName_startActivity">Введите ваше имя</string>
+    <string name="str_userName_startActivity">Введите ваше имя</string>
+    <string name="str_go_startActivity">Go</string>
 
     <!--Main activity"-->
-    <string name="userName_mainActivity">Здесь должно появится введенное имя пользователя</string>
+    <string name="str_userName_mainActivity">Здесь должно появится введенное имя пользователя</string>
+    <string name="str_settings_mainActivity">Настройки</string>
+
+    <!--Setting activity"-->
+    <string name="str_setting_settingLayout">Здесь будут общие настроки приложения. Возможно :)</string>
+
 
     <!--Default-->
     <string name="menu_stile">gaegu-regular.ttf</string>
@@ -11,4 +17,8 @@
     <string name="MainScreen">Главный экран</string>
     <string name="menu">Меню</string>
     <string name="recipes">Рецепты</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="str_back">Вернуться Назад</string>
+
+
 </resources>

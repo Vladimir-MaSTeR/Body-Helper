@@ -8,39 +8,44 @@
     tools:context=".StartActivity">
 
     <ImageView
-        android:id="@+id/id_imageView_logo_startActivity"
+        android:id="@+id/id_iv_logo_startActivity"
         android:layout_width="match_parent"
         android:layout_height="300dp"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo2" />
+        app:srcCompat="@drawable/logo2">
+    </ImageView>
 
     <EditText
-        android:id="@+id/id_editText_tapName_startActivity"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:id="@+id/id_et_tapName_startActivity"
+        android:layout_width="271dp"
+        android:layout_height="62dp"
         android:ems="10"
+        android:hint="@string/str_userName_startActivity"
         android:inputType="textPersonName"
-        android:hint="@string/st_userName_startActivity"
 
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/id_btn_go_startActivity"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/id_imageView_logo_startActivity"
-        app:layout_constraintEnd_toStartOf="@id/id_imageButton_go_startActivity" />
+        app:layout_constraintTop_toBottomOf="@id/id_iv_logo_startActivity"
+        app:layout_constraintVertical_bias="0.400" />
 
-    <ImageButton
-        android:id="@+id/id_imageButton_go_startActivity"
+    <Button
+        android:id="@+id/id_btn_go_startActivity"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:background="#00BEE4BF"
-        android:src="@drawable/button_fastforward_green"
+        android:drawableEnd="@drawable/aaa"
 
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/str_go_startActivity"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/id_editText_tapName_startActivity"
-        app:layout_constraintTop_toBottomOf="@id/id_imageView_logo_startActivity"
+        app:layout_constraintStart_toEndOf="@id/id_et_tapName_startActivity"
+        app:layout_constraintTop_toBottomOf="@id/id_iv_logo_startActivity"
+        app:layout_constraintVertical_bias="0.400"
         tools:ignore="UseAppTint" />
 
 
