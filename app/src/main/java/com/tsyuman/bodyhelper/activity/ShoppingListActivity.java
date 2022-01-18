@@ -1,4 +1,4 @@
-package com.tsyuman.bodyhelper;
+package com.tsyuman.bodyhelper.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,19 +7,21 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.tsyuman.bodyhelper.R;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class RecipesActivity extends AppCompatActivity implements View.OnClickListener {
+public class ShoppingListActivity extends AppCompatActivity implements View.OnClickListener {
 
-    @BindView(R.id.id_btn_back_recipesActivity)
+    @BindView(R.id.id_btn_back_shoppingListActivity)
     Button btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recipes);
-        ButterKnife.bind(this);             // Butter Knife start
+        setContentView(R.layout.activity_shopping_list);
+        ButterKnife.bind(this);
 
         btnBack.setOnClickListener(this);
     }
@@ -30,6 +32,5 @@ public class RecipesActivity extends AppCompatActivity implements View.OnClickLi
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
-
     }
 }
