@@ -10,6 +10,15 @@
     <!--Setting activity"-->
     <string name="str_setting_settingLayout">Здесь будут общие настроки приложения. Возможно :)</string>
 
+    <!--User Setting Activity -->
+    <string name="str_userName_userSettingActivity">Имя</string>
+    <string name="str_userSurname_userSettingActivity">Фамилия</string>
+    <string name="str_userCurrentWeight_userSettingActivity">Текущий вес</string>
+    <string name="str_userDesiredWeight_userSettingActivity">Желаемый вес</string>
+    <string name="str_userCaloriesPerDay_userSettingActivity">Калории на день</string>
+    <string name="str_userNumberOfMeals_userSettingActivity">Кол. приемов пищи в день</string>
+    <string name="str_modify_userSettingActivity">Редактировать</string>
+
 
     <!--Default-->
     <string name="menu_stile">gaegu-regular.ttf</string>
