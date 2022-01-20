@@ -5,7 +5,7 @@
     android:id="@+id/id_start_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StartActivity">
+    tools:context=".activity.StartActivity">
 
     <ImageView
         android:id="@+id/id_iv_logo_startActivity"

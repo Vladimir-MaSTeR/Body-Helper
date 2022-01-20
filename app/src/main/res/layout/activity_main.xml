@@ -5,7 +5,7 @@
     android:id="@+id/id_main_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
 
     <ImageView
@@ -14,10 +14,23 @@
         android:layout_height="200dp"
         android:src="@drawable/logo2"
 
-        app:layout_constraintBottom_toTopOf="@+id/id_tv_userName_mainActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:indeterminateOnly="false"
+        android:progress="60"
+        android:progressDrawable="@drawable/calories_progress"
+
+        app:layout_constraintBottom_toTopOf="@+id/id_tv_userName_mainActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_im_logo_startActivity"
+        app:layout_constraintVertical_bias="0.0">
+
+    </ProgressBar>
 
     <TextView
         android:id="@+id/id_tv_userName_mainActivity"
@@ -27,10 +40,9 @@
         android:text="@string/str_userName_mainActivity"
         android:textSize="24sp"
 
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/id_im_logo_startActivity" />
+        app:layout_constraintBottom_toTopOf="@+id/id_linLey_bottomBar_mainActivity"/>
 
     <LinearLayout
         android:id="@+id/id_linLey_bottomBar_mainActivity"

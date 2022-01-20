@@ -1,4 +1,4 @@
-package com.tsyuman.bodyhelper;
+package com.tsyuman.bodyhelper.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.tsyuman.bodyhelper.R;
 
 import java.util.stream.Stream;
 
